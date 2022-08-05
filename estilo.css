@@ -1,0 +1,30 @@
+body{
+  background: rgb(106, 230, 75)
+}
+h1 {
+  text-align: center;
+}
+.caixa1 {
+  position:absolute;
+  background: pink;
+  width: 200px;
+  height: 200px;
+  color:  black;
+  left: 40%
+}
+.caixa2 {
+  position: absolute;
+  background: pink;
+  width: 200px;
+  heigth: 700px;
+  color: black;
+  left: 55%;
+}
+.menuPrincipal {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  background-color: cadetblue;
+  top: 0;
+  left: 0;
+}
