@@ -1,22 +1,22 @@
 body{
-  background: rgb(106, 230, 75)
+  background: #57a175;
 }
 h1 {
   text-align: center;
 }
 .caixa1 {
   position:absolute;
-  background: pink;
+  background:  rgb(101, 202, 169);
   width: 200px;
   height: 200px;
   color:  black;
-  left: 40%
+  left: 40%;
 }
 .caixa2 {
   position: absolute;
-  background: pink;
+  background: rgb(101, 202, 169);
   width: 200px;
-  heigth: 700px;
+  height: 200px;
   color: black;
   left: 55%;
 }
@@ -27,4 +27,23 @@ h1 {
   background-color: cadetblue;
   top: 0;
   left: 0;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: 0;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: #40ff8f;
+  padding: 14px 16px;
+text-align: center;
+text-decoration: none;
+}
+li a:hover {
+  color: antiquewhite;
 }
