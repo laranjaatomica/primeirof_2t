@@ -1,5 +1,5 @@
 body{
-  background:  #307a55;
+  background:  #34a56d;
   margin: 0;
   padding: 0;
 
@@ -7,27 +7,12 @@ body{
 h1 {
   text-align: center;
 }
-.caixa1 {
-  position:absolute;
-  background:  rgb(209, 218, 136);
-  width: 200px;
-  height: 200px;
-  color:  black;
-  left: 40%;
-}
-.caixa2 {
-  position: absolute;
-  background: rgb(209, 218, 136);
-  width: 200px;
-  height: 200px;
-  color: black;
-  left: 55%;
-}
+
 .menuPrincipal {
   position: absolute;
   width: 100%;
   height: 60px;
-  background-color: rgb(74, 141, 143);
+  background-color: rgb(100, 184, 156);
   top: 0;
   left: 0;
 }
@@ -42,7 +27,7 @@ li {
 }
 li a {
   display: block;
-  color: #40ff8f;
+  color: #42705a;
   padding: 14px 16px;
 text-align: center;
 text-decoration: none;
@@ -58,11 +43,11 @@ li a:hover {
   position: absolute;
   width: 40%;
   height: 30%;
-  background: #40ff8f;
+  background: #76c4c4;
   top: 50px;
   left: 0;
   margin: 20px;
-  border-color: #25c266;
+  border-color: #cfdd7e;
   border-width: 20px;
   border-style: solid;
   padding: 20px;
@@ -74,8 +59,12 @@ li a:hover {
 
 }
 #rodape {
-  width: 100%;
+  width: 700%;
   height: 40px;
-  background: #307a55;
+  background: #34a56d;
   color: black;
+}
+#sapo {
+  width: 100%;
+  height: 200;
 }
